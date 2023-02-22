@@ -1,0 +1,6 @@
+% nix, nix-shell
+
+# test a package from a local nixpkgs clone
+nix-shell -I nixpkgs=<pathToNixpkgs> -p <packages>
+
+$ pathToNixpkgs: pwd
