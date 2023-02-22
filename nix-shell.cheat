@@ -4,3 +4,8 @@
 nix-shell -I nixpkgs=<pathToNixpkgs> -p <packages>
 
 $ pathToNixpkgs: pwd
+
+% nix, nix-shell
+
+# run a command in a nix-shell
+nix-shell --run '<command>'
