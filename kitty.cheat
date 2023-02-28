@@ -1,0 +1,5 @@
+% kitty, theme
+
+# change theme of kitty
+kitty +kitten themes --config-file-name themes.conf
+
